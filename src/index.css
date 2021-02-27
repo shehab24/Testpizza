@@ -1,0 +1,838 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+header {
+  width: 100%;
+  background-color: crimson !important;
+}
+.header {
+  width: 80%;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_box {
+  width: 400px;
+  text-align: center;
+}
+.brand {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Fraunces";
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  z-index: 20;
+}
+ul {
+  display: flex;
+  align-items: center;
+  z-index: 20;
+  transform-origin: bottom;
+  transition: all 0.6s ease-in;
+}
+ul li {
+  list-style: none;
+  margin: 15px 35px 0px 0px;
+  display: inline-block;
+  line-height: 50px;
+}
+ul li .nav_link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Fraunces";
+}
+.hero_banar {
+  width: 100%;
+  height: 90vh;
+  background-image: url("./img/pizza.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  position: relative;
+}
+.hero_banar::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #242424;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+.title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+.title .content {
+  width: 100%;
+  z-index: 2;
+}
+.title .content p {
+  font-family: "Fraunces";
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-align: center;
+}
+.title h2 {
+  display: block;
+  font-size: 3.5rem;
+  color: #fff;
+  font-family: "Fraunces";
+  font-weight: 800;
+  z-index: 1;
+}
+h2 > big {
+  display: block;
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.about_us {
+  width: 80%;
+  height: 100%;
+  margin: 20px auto;
+  padding: 70px 10px;
+  background-color: #ffff;
+}
+.about_content_main {
+  width: 100%;
+  height: 100%;
+  padding: 30px 10px;
+  display: flex;
+  align-items: center;
+}
+.about_content > h3 {
+  font-size: 3.2rem;
+  color: #242424;
+  font-weight: 700;
+  font-family: "Fraunces";
+}
+.about_content > p {
+  font-size: 1rem;
+  color: #333;
+  font-family: "Fraunces";
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin: 20px 0px;
+}
+.about_image_main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_image > img {
+  width: 100%;
+  height: 100%;
+}
+.chef {
+  width: 100%;
+  height: 100%;
+  background-image: url("./img/chef.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+  padding: 50px 0px;
+  padding-bottom: 100px;
+}
+.chef::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #242424;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  z-index: -1;
+}
+.chef_content {
+  width: 100%;
+  z-index: 100000;
+}
+.chef_content .chef_title {
+  z-index: 9999999;
+  width: 100%;
+  padding: 60px 0px;
+  text-align: center;
+}
+.chef_title h2 {
+  z-index: 999999999999999;
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Fraunces";
+  font-weight: 800;
+}
+.chef_title p {
+  z-index: 999999999999999;
+  color: #fff;
+  line-height: 8px;
+  margin-top: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "roboto";
+}
+.team_box {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 20px 0px;
+  z-index: auto;
+  position: relative;
+}
+.team_box > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: auto;
+}
+.team_content {
+  width: 80%;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: auto;
+  z-index: 99999;
+  position: absolute;
+  bottom: -40px;
+  left: auto;
+}
+.tem_item {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+.tem_item h3 {
+  font-family: "Fraunces";
+  font-size: 2rem;
+  font-weight: 800;
+  color: #242424;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.tem_item h4 {
+  color: crimson;
+  font-weight: 600;
+}
+
+.tem_item > a {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 8px;
+  background: #242424;
+  transition: all 0.6s;
+  /* transform: scale(1.4); */
+}
+
+.tem_item > a > i {
+  font-size: 1.4rem;
+  margin-top: 4px;
+}
+.tem_item > a:hover {
+  background: #fff;
+  color: #252525;
+}
+.shop {
+  width: 100%;
+  padding: 80px 20px;
+  background: #f6f6f6;
+}
+.Shop_title {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+}
+.Shop_title > h2 {
+  font-size: 2.5rem;
+  color: #242424;
+  font-weight: 700;
+  font-family: "fraunces";
+}
+.Shop_title > p {
+  font-size: 1rem;
+  color: #242424;
+  font-weight: 500;
+  font-family: "roboto";
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.shop_image {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 25px;
+  background: #222;
+  position: relative;
+}
+.shop_image:hover img {
+  transform: scale(0.9);
+}
+.shop_image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  transition: all 0.7s;
+}
+
+.shop_card_title {
+  width: 100%;
+  height: 100%;
+  padding: 60px 30px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.shop_button {
+  z-index: 999;
+}
+.shop_button > h2 {
+  color: #fff;
+  z-index: 99999;
+  font-weight: 700;
+  font-family: "fraunces";
+}
+.shop_button > h4 {
+  color: #fff;
+  z-index: 99999;
+  font-weight: 700;
+  font-family: "fraunces";
+}
+.shop_button .buy {
+  color: #fff;
+  z-index: 99999;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 10px;
+  font-family: "fraunces";
+}
+.pricing {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  padding-bottom: 80px;
+}
+.tik_mark {
+  margin-bottom: 20px;
+}
+.tik_mark span {
+  display: block;
+  line-height: 40px;
+  margin-left: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "roboto";
+  padding-left: 10px;
+}
+.tik_mark i {
+  color: crimson;
+  padding-right: 5px;
+}
+.pricing_title {
+  width: 100%;
+  padding: 80px 0px;
+  text-align: center;
+}
+.pricing_title h2 {
+  font-size: 3rem;
+  color: #242424;
+  font-weight: 700;
+  font-family: "fraunces";
+}
+.pricing_title p {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 500;
+  font-family: "fraunces";
+  margin-top: 20px;
+}
+.pricing_content {
+  width: 100%;
+  height: 500px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.7s;
+}
+.pricing_content:hover {
+  border: none;
+  background-color: #fff;
+  box-shadow: -2px 3px 30px rgba(255, 255, 255, 0.6),
+    2px -3px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+.pricing_content .pp_ti {
+  width: 100%;
+  text-align: center;
+  padding: 15px 5px;
+}
+.pricing_content .pp_ti h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "fraunces";
+}
+.pricing_content .pp_ti h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: "fraunces";
+  color: crimson;
+}
+.pricing_content .pp_ti p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "fraunces";
+  color: crimson;
+}
+
+.pricing_content .pp_btn_box {
+  width: 100%;
+  text-align: center;
+}
+.footer_div {
+  width: 100%;
+  padding: 50px 0px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.brand_footer {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 8px;
+  font-family: "fraunces";
+  font-weight: 600;
+}
+.footer_icon {
+  width: 100%;
+}
+.footer_icon > a {
+  width: 30px;
+  height: 30px;
+  background-color: crimson;
+  margin-right: 15px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.6s;
+}
+.footer_icon > a:hover {
+  background: #fff;
+  color: crimson;
+}
+.footer_icon > a > i {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 6px;
+}
+.footer_sub {
+  width: 100%;
+  padding: 0px 0px;
+}
+.footer_sub > input {
+  width: 80%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: #fafafa;
+  margin-bottom: 5px;
+  font-family: "fraunces";
+}
+.footer_sub > .textbold {
+  font-family: "fraunces";
+  font-weight: 500;
+}
+.footer_inf {
+  width: 100%;
+  color: #fff;
+}
+.inf_box {
+  width: 100%;
+}
+.inf_box h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.inf_box h4 i {
+  padding-right: 8px;
+  color: crimson;
+}
+.footer_copy_div {
+  font-size: 1rem;
+  background: #242424;
+  color: #fff;
+  font-weight: 600;
+  font-family: "fraunces";
+}
+.footer_copy_div span {
+  color: crimson;
+}
+
+/* for extra design  */
+.what_me {
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+  padding: 70px 0px;
+}
+.what_title {
+  width: 100%;
+  padding: 100px 0px;
+  text-align: center;
+}
+.what_title h2 {
+  font-family: "fraunces";
+  font-weight: 800;
+  color: #242424;
+  font-size: 2.4rem;
+}
+.what_title > p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666;
+  margin-top: 15px;
+}
+.what_we_content {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.what_img h2 {
+  margin-top: 15px;
+  font-size: 2rem;
+  font-family: "fraunces";
+  font-weight: 700;
+  color: crimson;
+}
+.what_img p {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  font-family: "fraunces";
+  font-weight: 500;
+}
+.why_people {
+  width: 100%;
+  height: 100%;
+  padding: 80px 0px;
+  background: #fff;
+}
+.why_title {
+  width: 100%;
+  text-align: center;
+}
+.why_title h2 {
+  font-family: "fraunces";
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #242424;
+}
+.why_title p {
+  font-family: "fraunces";
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.choose_box {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.why_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px dotted crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.why_icon i {
+  font-size: 1.8rem;
+  color: crimson;
+  font-weight: 600;
+  z-index: 9999;
+}
+.choose_box h2 {
+  font-size: 1.5rem;
+  font-family: "fraunces";
+  font-weight: 500;
+  margin-top: 10px;
+  z-index: 999999;
+}
+.choose_box p {
+  font-family: "fraunces";
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: justify;
+  z-index: 99999;
+}
+.choose_box::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: -100%;
+  background-color: crimson;
+  transition: all 0.7s;
+  visibility: hidden;
+  opacity: 0;
+  z-index: auto;
+}
+.choose_box:hover:before {
+  visibility: visible;
+  opacity: 1;
+  top: 0%;
+}
+.choose_box:hover h2 {
+  color: #fff;
+}
+.choose_box:hover p {
+  color: #fff;
+}
+.choose_box:hover .why_icon {
+  border: 1px dotted #fff;
+}
+.choose_box:hover .why_icon i {
+  color: #fff;
+}
+.mouth_waltering {
+  width: 100%;
+  height: 500px;
+  background-image: url("./img/shop2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.mouth_waltering::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #242424;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+.mouth_title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999999;
+}
+.mouth_title h1 {
+  z-index: 9;
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-family: "fraunces";
+}
+.mouth_title h2 {
+  z-index: 9;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "fraunces";
+}
+.mouth_title .buy_now {
+  margin-top: 10px;
+  z-index: 9;
+  font-size: 1rem;
+  font-family: "fraunces";
+}
+.contact_box {
+  height: 200px;
+}
+.icon_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+.inc_back {
+  width: 50px;
+  height: 50px;
+  background: #f6f6f6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inc_back i {
+  font-size: 1.5rem;
+  color: crimson;
+}
+.icon_box h3 {
+  font-size: 1.6rem;
+  color: #242424;
+  margin-top: 10px;
+  font-family: "fraunces";
+}
+.icon_box span {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.form {
+  width: 100%;
+  background: #fff;
+  padding-bottom: 100px;
+}
+.form_title {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px;
+}
+.form_title h2 {
+  font-size: 2rem;
+  font-family: "fraunces";
+  font-weight: 600;
+}
+.form_title p {
+  font-size: 1rem;
+  font-family: "fraunces";
+  font-weight: 500;
+}
+form label {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "fraunces";
+}
+@media (max-width: 720px) {
+  header {
+    background-color: #242424 !important;
+  }
+  .header {
+    width: 100%;
+    flex-direction: column;
+  }
+  .logo_box {
+    width: 100%;
+    position: relative;
+  }
+  .menu_box {
+    width: 28px;
+    height: 25px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    background-image: url("./img/menu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  .menu_box.active {
+    background-image: url("./img/close.png");
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo h2 {
+    margin-top: 10px;
+  }
+  .navBar {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  ul {
+    width: 100%;
+    height: 100vh;
+    background-color: crimson;
+    display: block;
+    clip-path: circle(0% at right 0%);
+    z-index: 10000;
+  }
+  ul.active {
+    clip-path: circle(110% at left 50%);
+  }
+  ul li {
+    display: block;
+  }
+  .title {
+    width: 100%;
+  }
+  .title .content {
+    width: 100%;
+    z-index: 2;
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .title .content p {
+    font-size: 1rem;
+  }
+  .title .content h2 {
+    font-size: 2.4rem;
+  }
+  .title .content h2 > big {
+    font-size: 3.2rem;
+  }
+  .about_us {
+    width: 100%;
+  }
+  .about_content_main {
+    padding: 10px 10px;
+  }
+  .chef_title p {
+    line-height: 25px;
+  }
+}
