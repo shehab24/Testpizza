@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Testpizza/static/css/main.eec628d7.chunk.css",
+    "main.js": "/Testpizza/static/js/main.feb4db56.chunk.js",
+    "main.js.map": "/Testpizza/static/js/main.feb4db56.chunk.js.map",
+    "runtime-main.js": "/Testpizza/static/js/runtime-main.bffec77a.js",
+    "runtime-main.js.map": "/Testpizza/static/js/runtime-main.bffec77a.js.map",
+    "static/css/2.150d169a.chunk.css": "/Testpizza/static/css/2.150d169a.chunk.css",
+    "static/js/2.06313c1f.chunk.js": "/Testpizza/static/js/2.06313c1f.chunk.js",
+    "static/js/2.06313c1f.chunk.js.map": "/Testpizza/static/js/2.06313c1f.chunk.js.map",
+    "index.html": "/Testpizza/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Testpizza/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.eec628d7.chunk.css.map": "/Testpizza/static/css/main.eec628d7.chunk.css.map",
+    "static/js/2.06313c1f.chunk.js.LICENSE.txt": "/Testpizza/static/js/2.06313c1f.chunk.js.LICENSE.txt",
+    "static/media/chef.b89dcd86.png": "/Testpizza/static/media/chef.b89dcd86.png",
+    "static/media/index.css": "/Testpizza/static/media/shop2.524e4db2.jpg",
+    "static/media/offer1.ef3b9f4d.png": "/Testpizza/static/media/offer1.ef3b9f4d.png",
+    "static/media/offer2.005e7e1e.png": "/Testpizza/static/media/offer2.005e7e1e.png",
+    "static/media/offer3.772bb087.png": "/Testpizza/static/media/offer3.772bb087.png",
+    "static/media/shop1.478ecf92.jpg": "/Testpizza/static/media/shop1.478ecf92.jpg",
+    "static/media/shop3.b0496d34.jpg": "/Testpizza/static/media/shop3.b0496d34.jpg",
+    "static/media/shop4.e8675dcc.jpg": "/Testpizza/static/media/shop4.e8675dcc.jpg",
+    "static/media/shop5.91efc1b6.jpg": "/Testpizza/static/media/shop5.91efc1b6.jpg",
+    "static/media/shop6.904ac2b9.jpg": "/Testpizza/static/media/shop6.904ac2b9.jpg",
+    "static/media/shop7.91efc1b6.jpg": "/Testpizza/static/media/shop7.91efc1b6.jpg",
+    "static/media/shop8.7cd3897b.jpg": "/Testpizza/static/media/shop8.7cd3897b.jpg",
+    "static/media/team1.839f62a9.jpg": "/Testpizza/static/media/team1.839f62a9.jpg",
+    "static/media/team2.e06f4dc4.jpg": "/Testpizza/static/media/team2.e06f4dc4.jpg",
+    "static/media/team3.6cb025c4.jpg": "/Testpizza/static/media/team3.6cb025c4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bffec77a.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.06313c1f.chunk.js",
+    "static/css/main.eec628d7.chunk.css",
+    "static/js/main.feb4db56.chunk.js"
+  ]
+}
