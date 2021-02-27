@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Testpizza/static/css/main.eec628d7.chunk.css",
-    "main.js": "/Testpizza/static/js/main.feb4db56.chunk.js",
-    "main.js.map": "/Testpizza/static/js/main.feb4db56.chunk.js.map",
+    "main.js": "/Testpizza/static/js/main.5771d08c.chunk.js",
+    "main.js.map": "/Testpizza/static/js/main.5771d08c.chunk.js.map",
     "runtime-main.js": "/Testpizza/static/js/runtime-main.bffec77a.js",
     "runtime-main.js.map": "/Testpizza/static/js/runtime-main.bffec77a.js.map",
     "static/css/2.150d169a.chunk.css": "/Testpizza/static/css/2.150d169a.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.06313c1f.chunk.js",
     "static/css/main.eec628d7.chunk.css",
-    "static/js/main.feb4db56.chunk.js"
+    "static/js/main.5771d08c.chunk.js"
   ]
 }
